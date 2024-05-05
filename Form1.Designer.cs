@@ -75,6 +75,7 @@
             listBox1.Size = new Size(255, 493);
             listBox1.TabIndex = 0;
             listBox1.ValueMember = "Description";
+            listBox1.SelectedIndexChanged += listbox1_SelectedIndexChanged;
             // 
             // panel1
             // 
@@ -112,6 +113,7 @@
             btnCancel.TabIndex = 19;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // rbStatus2
             // 
@@ -181,6 +183,7 @@
             btnDelete.TabIndex = 12;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnModify
             // 
@@ -192,6 +195,7 @@
             btnModify.TabIndex = 11;
             btnModify.Text = "Modify";
             btnModify.UseVisualStyleBackColor = true;
+            btnModify.Click += btnModify_Click;
             // 
             // btnAdd
             // 
@@ -203,6 +207,7 @@
             btnAdd.TabIndex = 10;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // label5
             // 
